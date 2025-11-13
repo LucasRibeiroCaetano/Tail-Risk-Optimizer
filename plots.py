@@ -23,7 +23,7 @@ def show_plots(tickers, optimal_weights, returns, min_cvar_portfolio_returns):
     )
     
     # --- Título Principal da Figura (opcional) ---
-    fig.suptitle("Análise do Otimizador de Risco (CVaR)", fontsize=16)
+    fig.suptitle("Tail Risk Optimizer (CVaR)", fontsize=16, fontweight='bold')
 
     
     # --- Subplot 1 (70%): Cumulative Returns (Backtest) ---
