@@ -2,11 +2,9 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Libraries-cvxpy-pandas-yfinance](https://img.shields.io/badge/Libraries-cvxpy%20%7C%20pandas%20%7C%20yfinance-orange)](#)
-[![License-MIT](https://img.shields.io/badge/License-MIT-green)](https://choosealicense.com/licenses/mit/)
+[![License-CC-BY-NC-4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-Green)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 A Python command-line tool for portfolio optimization that focuses on minimizing "tail risk" instead of traditional volatility. This project calculates the ideal asset allocation to minimize **Conditional Value at Risk (CVaR)**, providing a more robust strategy for protecting against extreme market losses.
-
----
 
 ## Why Use This Optimizer? (Usability)
 
@@ -23,16 +21,12 @@ This optimizer finds a portfolio that performs best during the worst market scen
 * **Clean Interface:** A simple command-line tool (CLI) with customizable flags.
 * **Visual Dashboard:** Generates a `matplotx` dashboard with two panels to visualize the results.
 
----
-
 ## Output
 
 The tool prints an optimization summary to the console and then displays a visual dashboard in a single window:
 
-1.  **Backtest Graph (70% width):** A line chart comparing the cumulative returns of your `Min-CVaR Portfolio` against a baseline `Equal-Weight (1/N) Portfolio`.
-2.  **Allocation Chart (30% width):** A pie chart showing the optimal asset allocation, with a clear external legend.
-
----
+1.  **Backtest Graph:** A line chart comparing the cumulative returns of your `Min-CVaR Portfolio` against a baseline `Equal-Weight (1/N) Portfolio`.
+2.  **Allocation Chart:** A pie chart showing the optimal asset allocation, with a clear external legend.
 
 ## Installation
 
@@ -47,13 +41,27 @@ The tool prints an optimization summary to the console and then displays a visua
     pip install -r requirements.txt
     ```
 
----
-
-## How to Use (Flags)
+## How to Use
 
 The script is run from `main.py` and accepts several optional arguments ("flags") to customize the analysis.
 
-### Base Syntax
 ```bash
 python main.py [--tickers TICKERS] [--period PERIOD] [--alpha ALPHA]
 ```
+
+## License
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+This means you are free to:
+
+- Share: copy and redistribute the material in any medium or format.
+
+- Adapt: remix, transform, and build upon the material.
+
+Under the following terms:
+
+- Attribution: You must give appropriate credit.
+
+**NonCommercial**: You may not use the material for commercial purposes.
+
+For the full license text, see: https://creativecommons.org/licenses/by-nc/4.0/
