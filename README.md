@@ -1,4 +1,4 @@
-# TailRiskOptimizer
+# Tail Risk Optimizer
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Libraries-cvxpy-pandas-yfinance](https://img.shields.io/badge/Libraries-cvxpy%20%7C%20pandas%20%7C%20yfinance-orange)](#)
