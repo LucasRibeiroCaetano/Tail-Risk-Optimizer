@@ -6,7 +6,7 @@
 
 A Python command-line tool for portfolio optimization that focuses on minimizing "tail risk" instead of traditional volatility. This project calculates the ideal asset allocation to minimize **Conditional Value at Risk (CVaR)**, providing a more robust strategy for protecting against extreme market losses.
 
-## Why Use This Optimizer? (Usability)
+## Why Use This Optimizer?
 
 Standard Markowitz portfolio optimization defines "risk" as *volatility* (standard deviation). This treats a +10% gain and a -10% loss as equally "risky."
 
